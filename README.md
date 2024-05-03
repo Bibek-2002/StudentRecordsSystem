@@ -11,22 +11,43 @@ Features
 
 
 Add Student Records: Capture details such as name, age, roll number, and phone number.
+
 Edit Student Records: Update existing student information.
+
 Delete Student Records: Remove student details from the system.
+
 Search Functionality: Quickly find student records based on names.
+
 Technologies Used
+
 HTML
+
 CSS
+
 JavaScript
+
 Setup and Installation
+
 Clone the Repository:
+
+
 bash
+
 Copy code
+
 git clone https://github.com/Bibek-2002/StudentRecordsSystem.git
+
 Navigate to the project directory:
+
+
 bash
+
+
 Copy code
+
 cd StudentRecordsSystem
+
+
 Open the index.html file in a web browser.
 
 
