@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Database Management System</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <div class="left">
+        <h1>Student Registration</h1>
+        <form id="record-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="number" id="age" placeholder="Age" required>
+            <input type="text" id="roll" placeholder="Roll Number" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <button type="submit">Add Record</button>
+            <input type="hidden" id="edit-index" value="-1">
+        </form>
+    </div>
+    <div class="right">
+        <h2>Records</h2>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search by Name...">
+            <button id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Roll</th>
+                    <th>Phone</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="record-list"></tbody>
+        </table>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
